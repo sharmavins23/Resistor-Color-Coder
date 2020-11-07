@@ -1,5 +1,5 @@
-function Readout() {
-    return <div>Hello world and stuff</div>;
+function Readout({ input }) {
+    return <div>{input}</div>;
 }
 
 export default Readout;
